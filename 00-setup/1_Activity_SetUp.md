@@ -23,7 +23,7 @@ The expectation is exposure, not mastery.
 
 WARNING: "rm -rf" is an extremely dangerous command. Do not use it unless you 100% know what you are doing.
 
-When you open git bash, you should see an image liket this:
+When you open git bash, you should see an image like this:
 
 <img  width="500px" src="./images/gitbash.png">
 
@@ -44,7 +44,7 @@ You should see something like "git version 2.41.0.windows.1"
 
 In git bash, type in "code ." to open VS-Code. You should see something like this.
 
-<img width="500px" src="./images/gitbash.png">
+<img width="500px" src="./images/vscode.png">
 
 # Step 3. Install Node.js:
 
