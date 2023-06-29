@@ -23,15 +23,15 @@ The expectation is exposure, not mastery.
 
 WARNING: "rm -rf" is an extremely dangerous command. Do not use it unless you 100% know what you are doing.
 
-To verify git is correctly installed, in Git Bash enter the following command.
+When you open git bash, you should see an image liket this:
+
+<img width="250px" src="../images/gitbash.png">
+
+To verify git is correctly installed, in git bash enter the following command.
 
 - git --version
 
 You should see something like "git version 2.41.0.windows.1"
-
-############
-
-#### add git bash image here
 
 ############
 
@@ -42,11 +42,9 @@ You should see something like "git version 2.41.0.windows.1"
 3. Click to open the downloaded installer
 4. Click "Next" until you reach the "Install" button. Click "Install".
 
-############
+In git bash, type in "code ." to open VS-Code. You should see something like this.
 
-#### add VS Code image here
-
-############
+<img width="250px" src="../images/gitbash.png">
 
 # Step 3. Install Node.js:
 
