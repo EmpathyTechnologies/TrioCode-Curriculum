@@ -4,51 +4,96 @@ We will set up your computer with Git, Visual Studio Code (VSCode), Node.js, and
 
 # Step 1. Install Git:
 
-Download the Git installer for Windows from the official website: https://git-scm.com/download/win
-Run the downloaded installer.
-Follow the installation wizard, selecting the desired options. The default settings are usually sufficient.
-During the installation, you can choose the default editor for Git. Select "Use Visual Studio Code as Git's default editor."
-Complete the installation process.
+1. Go to https://git-scm.com/download/win (the official Git installer for Windows website)
+2. Click "Click here to download" to download the installer
+3. Click to open the downloaded installer
+4. Click "Next" until you reach the "Install" button. Click "Install".
+5. Open Git Bash
+6. (optional) Recommend to pin Git Bash to the task bar or create a Git Bash icon on the desktop
+
+We're hoing to have initial exposure to git (what we just installed) and git commands (things we type into the command line).
+The expectation is exposure, not mastery.
+
+- cd (change directory)
+- ls (list)
+- mkdir (make directory)
+- rmdir (remove directory)
+- touch (create a file)
+- clear (clears the command lines)
+
+WARNING: "rm -rf" is an extremely dangerous command. Do not use it unless you 100% know what you are doing.
+
+To verify git is correctly installed, in Git Bash enter the following command.
+
+- git --version
+
+You should see something like "git version 2.41.0.windows.1"
+
+############
+
+#### add git bash image here
+
+############
 
 # Step 2. Install Visual Studio Code (VSCode):
 
-Download the Visual Studio Code installer for Windows from the official website: https://code.visualstudio.com/download
-Run the downloaded installer.
-Follow the installation wizard, selecting the desired options. The default settings are generally suitable.
-Complete the installation process.
+1. Go to https://code.visualstudio.com/download (the official Visual Studio Code website)
+2. Click to download the installer for your operating system (Windows, Linux, or Mac)
+3. Click to open the downloaded installer
+4. Click "Next" until you reach the "Install" button. Click "Install".
+
+############
+
+#### add VS Code image here
+
+############
 
 # Step 3. Install Node.js:
 
-Download the Node.js installer for Windows from the official website: https://nodejs.org
-Choose the LTS (Long Term Support) version, which is recommended for most users.
-Run the downloaded installer.
-Follow the installation wizard, selecting the desired options. The default settings are usually appropriate.
-Complete the installation process.
+1. Go to https://nodejs.org (the official Node.js website)
+2. Click to download the current version installer "18.16.1 Recommended for Most Users"
+3. Click to open the downloaded installer
+4. Click "Next" until you reach the "Install" button. Click "Install".
 
-# Step 4. Install Git Bash for Windows:
+Javascript is a coding language that websites run on.
+Node.js is an open-source environment that allows you to run JavaScript code on the server, not just in web browsers.
 
-Download the Git Bash for Windows installer from the official website: https://gitforwindows.org
-Run the downloaded installer.
-Follow the installation wizard, selecting the desired options. The default settings are typically suitable.
-Complete the installation process.
+To verify node is correctly installed, in Git Bash enter the following command.
 
-# Step 5. Set up GitHub account:
+- node -v
 
-Go to the GitHub website: https://github.com
-Click on "Sign up" to create a new account if you don't have one. Otherwise, sign in to your existing account.
-Follow the steps to create your GitHub account.
+If you see "bash: node: command not found", we need to debug installation.
 
-# Step 6. Configure Git with your GitHub account:
+- Try closing your git bash (windows) / terminal (mac), then re-opening git bash / terminal (mac)
+- Try uninstalling node, then reinstalling it
 
-Open Git Bash (you can search for "Git Bash" in the Windows Start menu).
-Set your name and email address for Git by running the following commands, replacing "Your Name" and "your_email@example.com" with your information:
+If you see something like "v18.16.1", then you successfully installed node.
+
+# Step 4. Set up GitHub account:
+
+1. Go to https://github.com
+2. Click "Sign up" in the top right corner of the browser
+3. Sign up
+
+# Step 5. Configure Git with your GitHub account:
+
+This will be a lot of things you don't need to know, but set up and do one time.
+
+1. Open Git Bash
+2. Set your name and email address for Git by running the following commands, replacing "Your Name" and "your_email@example.com" with your information:
 
 - git config --global user.name "Your Name"
-- git config --global user.email your_email@example.com
+- git config --global user.email "your_email@example.com"
 
 Authenticate Git with your GitHub account by generating an SSH key. Run the following command, replacing "your_email@example.com" with the email associated with your GitHub account:
 
 - ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+1. Enter file in which to save the key
+   press enter
+
+2. Enter passphrase (empty for no passphrase)
+   Your choice if you want a pass phrase. If you do choose to set up a passphrase, you will enter this frequently
 
 Press Enter to accept the default location for the SSH key.
 Enter a passphrase if desired (optional, but recommended for added security).
@@ -70,16 +115,6 @@ Click on "New SSH key" or "Add SSH key."
 Give your SSH key a title and paste the copied key into the "Key" field.
 Click on "Add SSH key" to save it.
 
-# Verify Correct Installation
-
-1. To verify git is correctly installed, in Git Bash enter the following command.
-
-- git --version
-
-If you see "git version 2.32.0" or a more updated version, then you set it up correctly.
-
-2.  To verify node is correctly installed, in Git Bash enter the following command.
-
-- node -v
+# Step 6. Download the Google Chrome Browser
 
 Now you have Git, VSCode, Node.js, and a GitHub account set up on your Windows system. You can start using these tools for version control, code editing, Node.js development, and collaboration on GitHub.
