@@ -25,7 +25,7 @@ WARNING: "rm -rf" is an extremely dangerous command. Do not use it unless you 10
 
 When you open git bash, you should see an image liket this:
 
-<img width="250px" src="../images/gitbash.png">
+<img width="250px" src="./images/gitbash.png">
 
 To verify git is correctly installed, in git bash enter the following command.
 
@@ -44,7 +44,7 @@ You should see something like "git version 2.41.0.windows.1"
 
 In git bash, type in "code ." to open VS-Code. You should see something like this.
 
-<img width="250px" src="../images/gitbash.png">
+<img width="250px" src="./images/gitbash.png">
 
 # Step 3. Install Node.js:
 
