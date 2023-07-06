@@ -84,7 +84,7 @@ Your command line should look like this.
 HTML elements (as displayed in the list from the beginning of class) allow you to structure and present content on a web page. Don't worry about the styling here as much as using and experimenting with different elements, how to use them, and what they produce.
 
 Instructions:
-Goal: Add to your page at least one of the following elements. <p>, <div>, <h1>, <h2>, <h3>, <footer>
+Goal: Add to your page at least one of the following elements. `<p></p>`, `<div></div>`, `<h1></h1>`, `<h2></h2>`, `<h3></h3>`, `<footer></footer>`
 
 Stretch Goal: Add to your page an <img /> element tag that shows an image you added from the internet or your computer.
 
