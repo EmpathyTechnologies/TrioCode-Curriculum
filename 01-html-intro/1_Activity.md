@@ -148,4 +148,4 @@ HTML
 - <head> element contains meta-information about the webpage, such as the title displayed in the browser's title bar.
 - The <body> element contains the visible content of the webpage.
 - HTML elements are the building blocks of an HTML document. They define the structure and content of a webpage.
-- HTML elements include things such as: <div>, <p>, <a>, <img>, <ul>, <ol>, <li>, <table>, <tr>, <td>, <form>, <input>, <button>, and more
+- HTML elements include things such as: `<div>`, `<p>`, `<a>`, `<img>`, `<ul>`, `<ol>`, `<li>`, `<table>`, `<tr>`, `<td>`, `<form>`, `<input>`, `<button>`, and more
