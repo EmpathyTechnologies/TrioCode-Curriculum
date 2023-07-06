@@ -6,7 +6,15 @@ What is HTML anyways? Well, HTML stands for Hypertext Markup Language, which is 
 
 So how does it work? 
 
-That's a bit more fun. Earlier we refered to HTML as the "building blocks" and thats a very accurate description. HTML consists of a series of elements, text, images, logos, links, etc., that build the web pages we see everyday. Let's take this page for example, this is written with Markdown. We have header text, (Introduction and Instructions), paragraph text (the written introduction and steps), we even have lists for the requirements. Each of these pieces is layered together to create a comprehensive page that others can look at and navigate. 
+That's a bit more fun. Earlier we refered to HTML as the "building blocks" and thats a very accurate description. HTML consists of multiple parts that build the web pages we see everyday:
+
+- text  
+- images
+- logos
+- links
+- elements, and more
+
+ Let's take this page for example, this is written with Markdown. We have header text, (Introduction and Instructions), paragraph text (the written introduction and steps), we even have lists for the requirements. Each of these pieces is layered together to create a comprehensive page that others can look at and navigate. 
 
 Theres a lot of different elements you can use with HTML. You can see some of the most commonly used elements below but for a complete list you can visit [this web page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) by MDN Web Docs.
 
@@ -31,7 +39,7 @@ Let's talk about the portfolio for a minute, there are a few things that are req
   - Job
   - Picture
   - About You
-  - Place for Projects
+  - Projects (Samples of Your Portfolio)
   - Navigation
   - Header, Footer, or both
 
