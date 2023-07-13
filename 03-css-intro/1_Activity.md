@@ -99,7 +99,15 @@ h1 {
 
 The basic outline is that you use a **selector** to specify which element you'd like to be changed, then you start a **declaration** with a pair of curly brackets `{}`. Inside the curly brackets will be a list of **properties** of that element, and the **property value** you want to change that property to. **Selectors** can be made up of tags, but it can also be more specific such as a class, which is an attribute of an HTML tag that helps group tags together. Or maybe you want to change what happens when someone hovers over an item like a link, that's actually a pseudo-class and is written like: `a:hover`. Every element has a list of properties that you can change with CSS, and common values that you can change those properties to. [Here is a list](https://www.w3schools.com/cssref/css_default_values.php) of the CSS default properties and values for HTML elements. This should help you see where you can start with minor changes.
 
+## Quiz
+
+- ADD A COMMAND LINE INTERFACE QUIZ HERE.
+- cd .., mkdir, rmdir, touch, code .
+
 ## Deeper Dive:
+
+- ADD AN HTML AND CSS ACTIVITY
+- REQUIRE A MORE ROBUST AMOUNT OF SEMANTIC HTML AND SEMANTIC HTML CSS SELECTORS
 
 ## Next Steps:
 
