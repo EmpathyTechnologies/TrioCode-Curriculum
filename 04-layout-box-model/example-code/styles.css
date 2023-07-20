@@ -1,0 +1,103 @@
+:root {
+  --blue: #5ecaeb;
+  --green: #76eb8a;
+  --pink: #e0538C;
+  --purple: #785ca6;
+  --yellow: #e1a71d;
+  --border-radius: 10px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  height: 100dvh;
+  background: black;
+}
+
+header {
+  width: 100vw;
+  padding: 25px auto;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+.card-display {
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.card {
+  width: 30%;
+  border: 2px solid;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: var(--border-radius);
+}
+
+.card > .title {
+  color: black;
+}
+
+.card > .content {
+  color: white;
+  border: 0px;
+  padding: 5px;
+  border-radius: var(--border-radius);
+  background-color: black; 
+}
+
+.card > .content > details {
+  border: 1px solid;
+  padding: 2px;
+  border-radius: var(--border-radius);
+}
+
+.card > .content > details:hover {
+  cursor: pointer;
+}
+
+/* Card Colors */
+/* Blue */
+.card.blue {
+  background: var(--blue);
+  border-color: var(--blue);
+}
+
+/* Green */
+.card.green {
+  background: var(--green);
+  border-color: var(--green);
+}
+
+/* Pink */
+.card.pink {
+  background: var(--pink);
+  border-color: var(--pink);
+}
+
+/* Purple */
+.card.purple {
+  background: var(--purple);
+  border-color: var(--purple);
+}
+
+/* Yellow */
+.card.yellow {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
